@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <title>
-      30DaysOfScript:Inline Script, Internal Script, External script
+      01 Day: Inline Script, Internal Script, External script, Introduction to
+      Data types
     </title>
     <!-- The internal script can be written in the head or the body, but it is preferred to put it on the body of the HTML document -->
     <!-- External script -->
@@ -10,15 +11,20 @@
   </head>
   <body>
     <!-- Inline Script -->
-    <button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>
+    <button onclick="alert('Welcome to 30DaysOfJavaScript! Inline Script')">
+      Click Me
+    </button>
     <!-- Internal Script -->
     <script>
-      console.log("Welcome to 30DaysOfJavaScript");
+      console.log("Welcome to 30DaysOfJavaScript. Internal Script");
     </script>
 
     <!-- JavaScript external link could be in the header or in the body -->
     <!-- Before the closing tag of the body is the recommended place to put the external JavaScript script -->
     <script src="introduction.js"></script>
-    <!-- Multiple External Scripts -->
+    <!-- Multiple External Scripts. Can also link multiple external JavaScript files to a web page-->
+    <script src="helloworld.js"></script>
+    <!-- Introduction to Data types -->
+    <script src="IntroductionToDataTypes.js"></script>
   </body>
 </html>
